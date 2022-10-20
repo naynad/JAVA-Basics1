@@ -1,0 +1,44 @@
+package PolymorphismDemo;
+
+class Bank
+{  
+	
+float getRateOfInterest()
+{return 0;}  
+}  
+
+class SBI extends Bank
+{  
+float getRateOfInterest()
+{return 8.4f;}  
+}  
+
+class ICICI extends Bank{  
+float getRateOfInterest()
+{return 7.3f;}  
+} 
+
+class AXIS extends Bank
+{  
+float getRateOfInterest()
+{return 9.7f;}  
+}  
+
+
+class Polydemo1
+{  
+public static void main(String args[])
+{  
+ 
+SBI b=new SBI();
+
+System.out.println("SBI Rate of Interest: "+b.getRateOfInterest());  
+ICICI i =new ICICI(); 
+
+System.out.println("ICICI Rate of Interest: "+i.getRateOfInterest());  
+
+AXIS  a=new AXIS(); 
+
+System.out.println("AXIS Rate of Interest: "+a.getRateOfInterest());  
+}  
+}  
