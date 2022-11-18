@@ -1,8 +1,4 @@
 
-
-
-
-
 public class House {
 	int noOfRooms;
     String name;
@@ -24,9 +20,7 @@ public class House {
 			this.name = name;
 		}
 
-
-	        
-   
+       
 	void area() {
     	System.out.println("area of the room is 100sqm");
     }

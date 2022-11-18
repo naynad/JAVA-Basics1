@@ -19,6 +19,8 @@ public class restaurant {
 		restaurant res=new restaurant();
 		res.orderfood();
 		res.cookfood();
+		System.out.println(res.Menu);
+		
 	}
 
 }
